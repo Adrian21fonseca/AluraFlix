@@ -4,6 +4,8 @@ body{
     background: rgba(0, 0, 0, .85);
 }
 
+                /* HEADER */
+
 header{
     display: flex;
     justify-content: space-between;
@@ -45,4 +47,70 @@ header{
     border: 2px solid rgb(136, 136, 136);
     box-shadow: 1px 1px 20px rgb(81, 81, 81);
     cursor: pointer;
+}
+
+            /* INFORMACIÓN */
+
+.info{
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+}
+
+.new{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgb(0, 174, 255);
+    margin-bottom: 5px;
+}
+
+.complemento{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+
+
+
+                /* FOMULARIO */
+
+
+
+.formulario{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+hr{
+    border: 1px solid rgba(67, 67, 67, 0.825);
+}
+
+.titulo{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Source Code Pro", monospace;
+}
+
+form{
+    margin-top: 60px;
+}
+
+label{
+    color: white;
+}
+
+
+            /* FOOTER */
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 150px;
+    border-top: 4px solid rgb(0, 174, 255);
+    box-shadow: 0 0 30px rgb(0, 174, 255);
 }
